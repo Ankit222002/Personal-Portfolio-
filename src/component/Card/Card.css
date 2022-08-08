@@ -1,0 +1,42 @@
+.card{
+    width: 10rem;
+    height: 10rem;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 10rem;
+    text-align: center;
+    background-color: rgba(255,255,255,0.26);
+    border: 7px solid rgb(252, 204, 116) !important;
+    box-shadow: var(--boxShadow);
+    border-radius: 20px !important;
+padding: 0px 0px 2rem 0px;
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    height: 400px;
+    width: 300px;
+  
+
+}
+
+ .card span:nth-child(2){
+    color: var(--gray);
+    font-size: 30px;
+ }
+
+.card>img{
+    /* transform: scale(0.6); */
+    /* margin-top: -1rem; */
+}
+
+.c-button{
+    background: #ffffff;
+    box-shadow: 0px 19px 60px rgba(255,255,255,0.26);
+    border-radius: 7px;
+    border: none;
+    padding: 5px;
+    font-size: 16px;
+    color: #5290fd;
+}
